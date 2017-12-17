@@ -1,0 +1,56 @@
+#mainGrid {
+    line-height: 0px;
+    border: 1px solid black;
+    height: 500px;
+    width: 510px;
+    pointer-events:none;
+}
+
+#mainGrid .cell {
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    pointer-events:auto;
+}
+
+#colorBar button{
+    height: 50px;
+    width: 50px;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#violet {
+    background-color: violet;
+}
+
+#white {
+    background-color: white;
+    background-image: url("http://pngimg.com/uploads/eraser/eraser_PNG33.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width:50px;
+}
